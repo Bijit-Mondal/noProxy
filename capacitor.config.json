@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "NoBunk",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
