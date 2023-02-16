@@ -8,3 +8,6 @@
 
 > Change all .ts files to .js. In a blank Ionic Vue app, this should only be router/index.ts and main.ts. Remove @vue/typescript/recommended and @typescript-eslint/no-explicit-any: ‘off’, from .eslintrc.js.
 Remove Array<RouteRecordRaw> from router/index.js. Delete the shims-vue.d.ts file. Remove lang="ts" from the script tags in any of your Vue components that have them. In a blank Ionic Vue app, this should only be App.vue and views/Home.vue.
+
+```export CAPACITOR_ANDROID_STUDIO_PATH="/opt/android-studio/bin/studio.sh"```
+```ionic capacitor build android```
